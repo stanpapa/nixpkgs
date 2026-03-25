@@ -3141,6 +3141,16 @@
     };
     version = "1.18.10";
   };
+  numo = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "43c965a34b0b286b29e719ce5d97285a02932a72a66532667a278adce5fdf1a3";
+      type = "gem";
+    };
+    version = "0.1.1";
+  };
   observer = {
     groups = [ "default" ];
     platforms = [ ];
